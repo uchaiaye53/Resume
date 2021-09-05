@@ -1,0 +1,171 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 5px;
+    font-style:initial;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+}
+
+.p1{
+    display: flex;
+    width: 100%;
+}
+
+.img{
+    width: 225px;
+    border-radius: 50%;
+}
+
+.header{
+    margin-left: 70px;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    padding: 20px;
+    background-color:darkslategray;
+}
+
+.p2{
+    display: flex;
+    flex-direction: row;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+}
+
+.lp{
+    display: flex;
+    flex-direction: column;
+}
+
+.fa{
+    display: block;
+}
+
+
+.name{
+    color:darkslategray ;
+    font-size: 30px;
+    padding: 2px;
+    font-style: bold;
+}
+
+.skill{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.skill div {
+    padding: 5px;
+    background-color:darkslategray;
+    color:white;
+    border: 2px solid white;
+    border-radius: 5px;
+  }
+
+  .title{
+      font-size: 20px;
+  }
+
+  .pera{
+      font-size: 15px;
+      font-style: italic;
+      margin-bottom: 10px;
+  }
+
+  .interests div {
+    padding: 5px;
+    background-color:white;
+    color: darkslategray;
+    border: 2px solid darkslategray;
+    border-radius: 5px;
+    margin-bottom: 5px;
+  }
+
+  .right{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-left: 70px;
+}
+
+.name1{
+    color:darkslategray ;
+    font-size: 25px;
+    padding: 2px;
+    font-style: bold;
+    margin-top: 10px;
+}
+
+.name2{
+    color:darkslategray ;
+    font-size: 20px;
+    padding: 2px;
+    font-style: bold;
+}
+
+.name3{
+    color:darkslategray ;
+    font-size: 15px;
+    padding: 2px;
+    font-style: bold;
+    font-style: italic;
+}
+
+.letter{
+    font-size: 18px;
+}
+
+
+@media screen and (max-width:900px) {
+    .p1{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .img{
+        width: 200px;
+        border-radius: 50%;
+    }
+
+    
+    .header{
+        margin-left: 20px;
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        padding: 20px;
+        background-color:darkslategray;
+    }
+
+    .p2{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .right{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin-left: 0px;
+    }
+
+
+}
+
+
+
+
+
+
